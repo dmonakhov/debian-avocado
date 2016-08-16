@@ -4,7 +4,7 @@
 FROM debian
 
 MAINTAINER Dmitry Monakhov dmonakhov@openvz.org
-ENV AVOCADO_VERSION 39.0
+ENV AVOCADO_VERSION 40.0
 
 # Install and clean in one step to decrease image size
 RUN apt-get update && \
